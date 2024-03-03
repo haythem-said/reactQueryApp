@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>reactQuery</h1>
+      <h1>reactQueryApp</h1>
     </>
   )
 }
