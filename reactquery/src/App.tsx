@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import FetchDataFromGithub from "./exempleOne/FetchDataFromGithub";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>reactQueryApp</h1>
-    </>
-  )
+    <div>
+      <FetchDataFromGithub />
+    </div>
+  );
 }
 
-export default App
+export default App;
