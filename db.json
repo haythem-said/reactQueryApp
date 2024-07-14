@@ -1,0 +1,190 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "nom_complet": "Dr. najay Hammami",
+      "date_naissance": "1980-03-15",
+      "adresse": "742 Evergreen Terrace, Springfield, USA",
+      "telephone": "+1 (555) 123-4567",
+      "email": "cassandra.montague@example.com",
+      "profession": "Chercheuse en neurosciences",
+      "numero_secu_sociale": "123-45-6789",
+      "numero_passeport": "XYZ123456",
+      "situation_matrimoniale": "Mariée",
+      "langues_parlees": ["Anglais", "Français", "Mandarin"],
+      "education": [
+        {
+          "diplome": "PhD en neurosciences cognitives",
+          "universite": "Université de Cambridge"
+        },
+        {
+          "diplome": "MS en biologie moléculaire",
+          "universite": "Université de Stanford"
+        }
+      ],
+      "experience_professionnelle": [
+        {
+          "poste": "Chercheuse principale",
+          "employeur": "Laboratoire de Neurologie Avancée, Johns Hopkins University"
+        },
+        {
+          "poste": "Associée de recherche",
+          "employeur": "MIT Media Lab"
+        }
+      ],
+      "competences_techniques": [
+        "Imagerie cérébrale avancée",
+        "Modélisation neuronale",
+        "Intelligence artificielle appliquée à la neuroscience"
+      ]
+    },
+    {
+      "id": 2,
+      "nom_complet": "Dr. Jalloul Said",
+      "date_naissance": "1980-03-15",
+      "adresse": "742 Evergreen Terrace, Springfield, USA",
+      "telephone": "+1 (555) 123-4567",
+      "email": "haythem.montague@example.com",
+      "profession": "Chercheuse en neurosciences",
+      "numero_secu_sociale": "123-45-6789",
+      "numero_passeport": "XYZ123456",
+      "situation_matrimoniale": "Mariée",
+      "langues_parlees": ["Anglais", "Français", "Mandarin"],
+      "education": [
+        {
+          "diplome": "PhD en neurosciences cognitives",
+          "universite": "Université de Cambridge"
+        },
+        {
+          "diplome": "MS en biologie moléculaire",
+          "universite": "Université de Stanford"
+        }
+      ],
+      "experience_professionnelle": [
+        {
+          "poste": "Chercheuse principale",
+          "employeur": "Laboratoire de Neurologie Avancée, Johns Hopkins University"
+        },
+        {
+          "poste": "Associée de recherche",
+          "employeur": "MIT Media Lab"
+        }
+      ],
+      "competences_techniques": [
+        "Imagerie cérébrale avancée",
+        "Modélisation neuronale",
+        "Intelligence artificielle appliquée à la neuroscience"
+      ]
+    },
+    {
+      "id": 3,
+      "nom_complet": "Dr. Haythem Said",
+      "date_naissance": "1980-03-15",
+      "adresse": "742 Evergreen Terrace, Springfield, USA",
+      "telephone": "+1 (555) 123-4567",
+      "email": "haythem.montague@example.com",
+      "profession": "Chercheuse en neurosciences",
+      "numero_secu_sociale": "123-45-6789",
+      "numero_passeport": "XYZ123456",
+      "situation_matrimoniale": "Mariée",
+      "langues_parlees": ["Anglais", "Français", "Mandarin"],
+      "education": [
+        {
+          "diplome": "PhD en neurosciences cognitives",
+          "universite": "Université de Cambridge"
+        },
+        {
+          "diplome": "MS en biologie moléculaire",
+          "universite": "Université de Stanford"
+        }
+      ],
+      "experience_professionnelle": [
+        {
+          "poste": "Chercheuse principale",
+          "employeur": "Laboratoire de Neurologie Avancée, Johns Hopkins University"
+        },
+        {
+          "poste": "Associée de recherche",
+          "employeur": "MIT Media Lab"
+        }
+      ],
+      "competences_techniques": [
+        "Imagerie cérébrale avancée",
+        "Modélisation neuronale",
+        "Intelligence artificielle appliquée à la neuroscience"
+      ]
+    }
+  ],
+  "vehicules": [
+    {
+      "id": 1,
+      "marque": "Renault",
+      "modele": "Clio",
+      "annee": 2018,
+      "kilométrage": 80000,
+      "carburant": "Essence",
+      "boiteDeVitesses": "Manuelle",
+      "puissance": 90,
+      "couleur": "Bleu",
+      "nombreDePortes": 5,
+      "nombreDePlaces": 5,
+      "prixDeVente": 9500,
+      "etatGeneral": "Bon état",
+      "historique": {
+        "accidentsDeclares": 0,
+        "proprietairesPrecedents": 2,
+        "revisionReguliere": true
+      }
+    },
+    {
+      "id": 2,
+      "marque": "BMW",
+      "modele": "BMW",
+      "annee": 2018,
+      "kilométrage": 80000,
+      "carburant": "Essence",
+      "boiteDeVitesses": "Manuelle",
+      "puissance": 90,
+      "couleur": "Bleu",
+      "nombreDePortes": 5,
+      "nombreDePlaces": 5,
+      "prixDeVente": 9500,
+      "etatGeneral": "Bon état",
+      "historique": {
+        "accidentsDeclares": 0,
+        "proprietairesPrecedents": 2,
+        "revisionReguliere": true
+      }
+    }
+  ],
+  "dealer": [
+    {
+      "nom": "Jean Dubois",
+      "numéro de téléphone": "+33 6 12 34 56 78",
+      "adresse": {
+        "rue": "12 rue des Lilas",
+        "ville": "Paris",
+        "code postal": "75001",
+        "pays": "France"
+      },
+      "produits": [
+        {
+          "nom": "Skunk OG",
+          "quantité": "28 grammes",
+          "prix unitaire": "150 EUR"
+        },
+        {
+          "nom": "Hash Afghan",
+          "quantité": "10 grammes",
+          "prix unitaire": "80 EUR"
+        },
+        {
+          "nom": "Molly",
+          "quantité": "5 comprimés",
+          "prix unitaire": "20 EUR"
+        }
+      ],
+      "moyens de paiement acceptés": ["espèces", "cryptomonnaies"]
+    }
+  ]
+}
