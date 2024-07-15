@@ -117,9 +117,29 @@
   ],
   "vehicules": [
     {
-      "id": 1,
+      "id": 0,
       "marque": "Renault",
       "modele": "Clio",
+      "annee": 2018,
+      "kilométrage": 80000,
+      "carburant": "Essence",
+      "boiteDeVitesses": "Manuelle",
+      "puissance": 90,
+      "couleur": "Bleu",
+      "nombreDePortes": 5,
+      "nombreDePlaces": 5,
+      "prixDeVente": 9500,
+      "etatGeneral": "Bon état",
+      "historique": {
+        "accidentsDeclares": 0,
+        "proprietairesPrecedents": 2,
+        "revisionReguliere": true
+      }
+    },
+    {
+      "id": 1,
+      "marque": "BMW",
+      "modele": "BMW",
       "annee": 2018,
       "kilométrage": 80000,
       "carburant": "Essence",
@@ -159,6 +179,36 @@
   ],
   "dealer": [
     {
+      "id": 1,
+      "nom": "Jean Dubois",
+      "numéro de téléphone": "+33 6 12 34 56 78",
+      "adresse": {
+        "rue": "12 rue des Lilas",
+        "ville": "Paris",
+        "code postal": "75001",
+        "pays": "France"
+      },
+      "produits": [
+        {
+          "nom": "Skunk OG",
+          "quantité": "28 grammes",
+          "prix unitaire": "150 EUR"
+        },
+        {
+          "nom": "Hash Afghan",
+          "quantité": "10 grammes",
+          "prix unitaire": "80 EUR"
+        },
+        {
+          "nom": "Molly",
+          "quantité": "5 comprimés",
+          "prix unitaire": "20 EUR"
+        }
+      ],
+      "moyens de paiement acceptés": ["espèces", "cryptomonnaies"]
+    },
+    {
+      "id": 2,
       "nom": "Jean Dubois",
       "numéro de téléphone": "+33 6 12 34 56 78",
       "adresse": {

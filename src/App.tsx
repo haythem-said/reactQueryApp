@@ -1,32 +1,43 @@
 import "./App.css";
-import { useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { getUser } from "./services/getUser";
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { getVehicules } from "./services/getVehicules";
-import { DataContext } from "./services/getDealer";
-import Dealer from "./component/Dealer";
+import AddPosts from "./component/AddPosts";
 
 function App() {
-  const [page, setPage] = useState(1);
-  const userQuery = useQuery({
-    queryKey: ["getUser", { page }],
-    queryFn: getUser,
-  });
-  const vehiculeQuery = useQuery({
-    queryKey: ["vehicule"],
-    queryFn: getVehicules,
-  });
-  if (userQuery.isPending) return "Loading...";
-  if (userQuery.error)
-    return "An error has occurred: " + userQuery.error.message;
-  if (vehiculeQuery.error)
-    return "An error has occurred: " + vehiculeQuery.error.message;
-  //@ts-ignore
-  const { data } = useContext(DataContext);
-  console.log("haythe-->", data);
+  // const [page, setPage] = useState(1);
+  // const userQuery = useQuery({
+  //   queryKey: ["getUser", { page }],
+  //   queryFn: getUser,
+  // });
+  // const vehiculeQuery = useQuery({
+  //   queryKey: ["vehicule"],
+  //   queryFn: getVehicules,
+  // });
+  // if (userQuery.isPending) return "Loading...";
+  // if (userQuery.error)
+  //   return "An error has occurred: " + userQuery.error.message;
+  // if (vehiculeQuery.error)
+  //   return "An error has occurred: " + vehiculeQuery.error.message;
+  // const CreateTodo = () => {
+  //   const mutation = useMutation({
+  //     mutationFn: (formData: any) => {
+  //       return fetch("/api", formData);
+  //     },
+  //   });
+  //   const onSubmit = (event: any) => {
+  //     event.preventDefault();
+  //     mutation.mutate(new FormData(event.target));
+  //   };
+  //   {mutation.error && (
+  //     <h5 onClick={() => mutation.reset()}>{"test"}</h5>
+  //   )}
+  //   return <form onSubmit={onSubmit}><></></form>;
+  // };
   return (
     <>
-      {userQuery.data.map((user: any) => (
+      {/* {userQuery.data.map((user: any) => (
         <div key={user.id} className="user-card">
           <h2>{user.nom_complet}</h2>
           <p>Email: {user.email}</p>
@@ -45,8 +56,20 @@ function App() {
           <h2>{vehicule.modele}</h2>
           <h2>{vehicule.kilométrage}</h2>
         </div>
-      ))}
-      <Dealer />
+      ))} */}
+      {/* <form onSubmit={CreateTodo}>
+        {mutation.error && (
+          <h5 onClick={() => mutation.reset()}>{mutation.error}</h5>
+        )}
+        <input
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
+        <br />
+        <button type="submit">Create Todo</button>
+      </form> */}
+      <AddPosts />
     </>
   );
 }
